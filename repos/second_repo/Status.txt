@@ -1,0 +1,3 @@
+Git task : status;
+Notes: 	List the files you've changed and those you still need to add or commit:;
+Git commands: git status;

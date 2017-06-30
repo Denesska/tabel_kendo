@@ -3,5 +3,7 @@
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="774" y="199" />
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="994" y="244" />
     <location key="SettingsEditor.1920.0.1280.1024" x="2041" y="141" />
+    <location key="CommitChangelistDialog2.1920.0.1280.1024" x="2182" y="88" />
+    <location key="Vcs.Push.Dialog.1920.0.1280.1024" x="2379" y="222" />
   </component>
 </application>

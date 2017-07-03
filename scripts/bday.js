@@ -8,8 +8,8 @@ var async = require('async'),
     transporter = nodemailer.createTransport({
         service: "SendGrid",
         auth: {
-            user: "p.olteanu",
-            pass: "nuclear+shark+firebase.AK47"
+            user: "user",
+            pass: "pass"
         }
     });
 

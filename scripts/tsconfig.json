@@ -6,5 +6,5 @@
     "types": ["jquery"],
     "sourceMap": true
   },
-  "files": ["script.ts"]
+  "files": ["script.ts", "page1.ts"]
 }

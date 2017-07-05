@@ -3,11 +3,11 @@
  */
 /* Get element */
 // get hours
-const HOURS = document.querySelector("#hours").transform.baseVal.getItem(0);
+const HOURS = (document.querySelector("#hours") as SVGPathElement).transform.baseVal.getItem(0);
 // get minutes
-const MINUTES = document.querySelector("#minutes").transform.baseVal.getItem(0);
+const MINUTES = (document.querySelector("#minutes") as SVGPathElement).transform.baseVal.getItem(0);
 // get seconds
-const SECONDS = document.querySelector("#seconds").transform.baseVal.getItem(0);
+const SECONDS = (document.querySelector("#seconds") as SVGGraphicsElement).transform.baseVal.getItem(0);
 
 
 

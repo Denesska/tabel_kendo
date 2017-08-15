@@ -17,8 +17,12 @@
     <location key="#Web_Browsers.1920.0.1280.1024" x="2360" y="318" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.1280.1024" x="2014" y="140" />
     <location key="#TSLint.0.0.1920.1080" x="749" y="332" />
-    <location key="find.popup.0.0.1920.1080" x="782" y="132" />
+    <location key="find.popup.0.0.1920.1080" x="781" y="131" />
     <size key="#TSLint.0.0.1920.1080" width="540" height="441" />
     <size key="find.popup.0.0.1920.1080" width="784" height="630" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1836" height="292" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1836" height="292" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1836" height="292" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1836" height="292" />
   </component>
 </application>

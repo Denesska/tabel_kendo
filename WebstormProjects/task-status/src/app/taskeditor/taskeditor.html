@@ -1,0 +1,24 @@
+<md-toolbar>
+  <span id="o-back-action" (click)="onPrevClick()">
+    <i class="material-icons">arrow_back</i>
+  </span>
+</md-toolbar>
+
+<div id="o-content">
+  <md-input-container>
+    <input mdInput placeholder="Title" [(ngModel)]="taskDetails.fieldValues.Description">
+  </md-input-container>
+  <md-input-container>
+    <textarea mdInput placeholder="Description" [(ngModel)]="taskDetails.fieldValues.Details"></textarea>
+  </md-input-container>
+
+  <md-select placeholder="Priority" [(ngModel)]="taskDetails.fieldValues.Prioritate">
+    <md-option *ngFor="let priorityKey of priorityKeys" [value]="priorityKey">{{priorities[priorityKey]}}</md-option>
+  </md-select>
+
+  <md-select placeholder="Type" [(ngModel)]="taskDetails.fieldValues.Tip">
+    <md-option *ngFor="let typeKey of typeKeys"  [value]="typeKey">{{ types[typeKey] }}</md-option>
+  </md-select>
+
+  <button md-button (click)="saveTask()"><i class="material-icons">save</i></button>
+</div>

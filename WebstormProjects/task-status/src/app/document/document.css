@@ -1,0 +1,37 @@
+.mat-fab.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+    color: rgba(255,255,255,.87);
+    background-color: #418ECB;
+}
+
+md-toolbar {
+    background: #418ECB;
+    color: white;
+}
+
+#o-back-action {
+    cursor: pointer;
+}
+
+#o-stop-working {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    z-index: 99;
+}
+
+#o-content {
+    height: calc(100% - 112px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#o-content md-card {
+    height: calc(100% - 69px);
+}
+
+/*use :host /deep/ mySelector to avoid angular2 encapsulation 
+img tags added with innerHtml doesn't get rewritten and no angular2 attributes are added */
+:host /deep/ md-card-content img { 
+    width: 100% !important;
+    height: auto !important;
+}

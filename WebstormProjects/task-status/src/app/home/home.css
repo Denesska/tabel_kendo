@@ -1,0 +1,112 @@
+.mat-fab.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+    color: rgba(255,255,255,.87);
+    background-color: #418ECB;
+}
+
+md-toolbar {
+    background: #418ECB;
+    color: white;
+}
+
+md-tab-group {
+  width: 100%;
+  height: calc(100% - 56px);
+  overflow: hidden;
+}
+
+md-tab-body {
+    overflow-y: hidden !important;
+}
+
+:host /deep/ .mat-tab-body-content {
+    overflow-y: hidden !important;
+    height: 100%;
+}
+
+#o-content, #o-switch-content {
+    width: 100%;
+    height: calc(100% - 56px);
+    overflow: hidden;
+}
+
+md-list {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+md-list-item {
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #418ECB;
+}
+
+md-list-item h3 {
+    width: 85%;
+}
+
+md-list-item button {
+    right: 5px;
+    position: absolute;
+}
+/*mat-progress-bar-primary mat-progress-bar-fill mat-progress-bar-element*/
+
+:host /deep/ .mat-progress-bar-element {
+    background-color: #white !important;
+}
+
+:host /deep/ .mat-progress-bar-fill:after {
+    background-color: #418ECB !important;
+}
+
+.mat-progress-bar-fill:after {
+    background-color: #418ECB;
+}
+
+:host /deep/ .mat-progress-bar-buffer {
+    background-color: white;
+}
+
+#o-back-action {
+    cursor: pointer;
+}
+
+#o-stop-working {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    z-index: 99;
+}
+
+div[md-list-icon] {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 18px !important;
+    height: 17px !important;
+    background-color: #418ECB;
+}
+
+div[md-list-icon].o-simple-icon {
+    background-color: transparent;
+    width: 24px !important;
+    height: 24px !important;
+    background-position: initial;
+}
+
+/*task*/
+.o-58 {
+    -webkit-mask-image: url(../../assets/icons/task.svg);
+    mask-image: url(../../assets/icons/task.svg);
+}
+
+/*folder*/
+.o-10 {
+    -webkit-mask-image: url(../../assets/icons/folder.svg);
+    mask-image: url(../../assets/icons/folder.svg);
+}
+
+/*project*/
+.o-48 {
+    -webkit-mask-image: url(../../assets/icons/briefcase.svg);
+    mask-image: url(../../assets/icons/briefcase.svg);
+}

@@ -2,8 +2,8 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="C:\Users\d.gandzii\WebstormProjects\ocp" />
         <option value="C:\Users\d.gandzii\WebstormProjects\task-status" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\ocp" />
         <option value="C:\Users\d.gandzii\WebstormProjects\angular-f" />
         <option value="C:\Users\d.gandzii\WebstormProjects\VanNavPoi" />
         <option value="C:\Users\d.gandzii\WebstormProjects\vanilla-copycat" />
@@ -14,10 +14,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="C:\Users\d.gandzii\WebstormProjects\angular-f" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\task-status" />
       </list>
     </option>
-    <option name="lastPath" value="C:\Users\d.gandzii\WebstormProjects\ocp" />
+    <option name="lastPath" value="C:\Users\d.gandzii\WebstormProjects\task-status" />
     <option name="additionalInfo">
       <map>
         <entry key="C:\Users\d.gandzii\Documents\test">
@@ -92,7 +92,7 @@
               <option name="build" value="WS-171.4694.29" />
               <option name="productionCode" value="WS" />
               <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
-              <option name="projectOpenTimestamp" value="1502794250463" />
+              <option name="projectOpenTimestamp" value="1502799398657" />
               <option name="buildTimestamp" value="1496849147943" />
             </RecentProjectMetaInfo>
           </value>

@@ -1,0 +1,58 @@
+.md-primary {
+    background-color: #418ECB !important;
+}
+
+md-sidenav-container {
+    height: 100%;
+}
+
+#rsl-logo {
+    width: 50px;
+    vertical-align: -1px;
+}
+
+
+#o-title {
+    text-transform: uppercase;
+    color: #418ECB;
+    margin-top: 2px;
+}
+
+#o-user-area {
+    height: 10%;
+    padding: 5%;
+    background: #418ECB;
+    display: flex;
+}
+
+#o-username  {
+    align-self: flex-end;
+    color: white;
+}
+
+#o-working-status {
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+#o-version {
+    bottom: 0px;
+    position: absolute;
+    padding: 5%;
+}
+
+md-sidenav {
+    width: 85%;
+}
+
+.md-sidenav-container {
+    height: 100%;
+}
+
+:host /deep/ .mat-ink-bar {
+    background-color: #418ECB;
+}
+
+:host /deep/ .mat-tab-label:focus {
+    background-color: rgba(65, 142, 203, 0.3);
+}

@@ -1,0 +1,21 @@
+<md-toolbar>
+  <span id="o-back-action" (click)="onPrevClick()">
+    <i class="material-icons">arrow_back</i>
+  </span>
+</md-toolbar>
+
+<div id="o-content">
+  <md-card>
+    <md-card-title>{{documentDetails.title}}</md-card-title>
+    <md-card-subtitle>{{documentDetails.type}}</md-card-subtitle>
+    <md-card-subtitle>{{documentDetails.assignedTo}}</md-card-subtitle>
+    <md-card-subtitle>{{documentDetails.priority}}</md-card-subtitle>
+    <md-card-content [innerHTML]="documentDetails.description"></md-card-content>
+    <md-card-actions>
+      <button md-button (click)="onStartWorking()"><i class="material-icons">timer</i></button>
+      <button md-button (click)="createSwitchOption()"><i class="material-icons">playlist_add</i></button>
+    </md-card-actions>
+  </md-card>
+</div>
+
+<button id="o-stop-working" md-fab color="primary" *ngIf="currentTask.TaskTitle !== 'Not working'" (click)="onStopWorking()"><md-icon>timer_off</md-icon></button>

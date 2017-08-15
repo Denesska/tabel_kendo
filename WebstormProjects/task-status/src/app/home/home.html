@@ -1,0 +1,48 @@
+<md-tab-group>
+  <md-tab label="Tree">
+    <md-toolbar>
+      <button md-icon-button id="o-back-action" (click)="onPrevClick()">
+        <i class="material-icons">arrow_back</i>
+      </button>
+      <span id="o-parent">{{parentTask.Title}}</span>
+    </md-toolbar>
+
+    <md-progress-bar  *ngIf="showLoader" mode="indeterminate" color="#418ECB"></md-progress-bar>
+
+    <div id="o-content">
+      <md-list>
+        <md-list-item (click)="createNewTaskHere()">
+          <div md-list-icon class="o-simple-icon"><i class="material-icons">playlist_add</i></div>
+          <h3 md-line> Add new task </h3>
+        </md-list-item>
+        <md-list-item *ngFor="let docObject of docObjects" (click)="onDocObjClick(docObject)">
+          <div md-list-icon class="o-{{docObject.IconTextId}}"></div>
+          <h3 md-line> {{docObject.Title}} </h3>
+          <button md-icon-button (click)="onStartWorking(docObject)" *ngIf="docObject.DocumentTypeId === 1044 && docObject.NumberOfChildrenInTree === 0 && (docObject.StateMachineData === null || docObject.StateMachineData.CurrentStateTextId !== 'Finished')">
+            <md-icon>update</md-icon>
+          </button>
+        </md-list-item>
+      </md-list>
+    </div>
+  </md-tab>
+  <md-tab label="Switch options">
+    <md-toolbar></md-toolbar>
+
+    <md-progress-bar *ngIf="showLoader" mode="indeterminate"></md-progress-bar>
+
+    <div id="o-switch-content">
+      <md-list>
+        <md-list-item *ngFor="let switchOption of switchOptions" (click)="onClickOnSwitchOption(switchOption)">
+          <h3 md-line> {{switchOption.Name}} </h3>
+          <button md-icon-button (click)="onStartFromSwitchOption(switchOption)">
+            <md-icon>update</md-icon>
+          </button>
+        </md-list-item>
+      </md-list>
+    </div>
+
+  </md-tab>
+
+</md-tab-group>
+
+<button id="o-stop-working" md-fab color="primary" *ngIf="currentTask.TaskTitle !== 'Not working'" (click)="onStopWorking(docObject)"><md-icon>timer_off</md-icon></button>

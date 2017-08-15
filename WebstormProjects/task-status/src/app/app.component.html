@@ -1,0 +1,40 @@
+<md-sidenav-container>
+  <md-sidenav #sidenav>
+    <div id="o-user-area">
+      <span id="o-username">{{userName}}</span>
+    </div>
+
+    <md-list>
+      <md-list-item *ngIf="currentTask.TaskTitle !== 'Not working'">
+        <h3 md-line> Working </h3>
+        <p md-line> {{currentTask.TaskTitle}} </p>
+        <p md-line class="demo-2"> for {{currentTask.StartDate | amTimeAgo:true}} </p>
+      </md-list-item>
+      <md-list-item>
+        <h3 md-line> Stats </h3>
+        <p md-line class="demo-2"> Worked today: {{ statistics.HoursWorkedToday }} </p>
+        <p md-line class="demo-2"> Worked this month: {{ statistics.HoursWorkedThisMonth}} </p>
+        <p md-line class="demo-2"> Month average: {{ statistics.AverageHoursPerWorkingDayThisMonth }} </p>
+        <p md-line class="demo-2"> Holiday {{ userName === "Dorin Foaltin" ? "days" : "hours" }}: {{ userName === "Dorin Foaltin" ? statistics.HolidayHoursAvailableThisMonth / 8 : statistics.HolidayHoursAvailableThisMonth }} </p>
+      </md-list-item>
+      <md-list-item>
+        <h3 md-line (click)="logout()"> Logout </h3>
+      </md-list-item>
+    </md-list>
+
+
+    <div id="o-version">Version number: {{version}}</div>
+
+  </md-sidenav>
+
+  <md-toolbar>
+    <button md-icon-button (click)="sidenav.toggle()"><i class="material-icons">menu</i></button>
+    <span id="o-title"> 
+        {{title}}
+        <img id="rsl-logo" src="https://rosoftlab.com/src/img/home/logorsl.png" />
+    </span>
+  </md-toolbar>
+
+  <router-outlet></router-outlet>
+  
+</md-sidenav-container>

@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="center">
+    <form role="form" (submit)="login($event, username.value, password.value)">
+
+      <md-input-container>
+        <input mdInput placeholder="Username" #username>
+      </md-input-container>
+
+      <md-input-container >
+        <input mdInput type="password" placeholder="Password" #password>
+      </md-input-container>
+
+      <button type="submit" md-raised-button>Log in</button>
+    </form>
+  </div>
+</div>

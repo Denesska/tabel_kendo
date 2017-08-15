@@ -2,10 +2,21 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="C:\Users\d.gandzii\WebstormProjects\angular-f" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\ocp" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\VanNavPoi" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\vanilla-copycat" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\table_kendo" />
+        <option value="C:\Users\d.gandzii\WebstormProjects\lampix_ru" />
         <option value="C:\Users\d.gandzii\Documents\test" />
       </list>
     </option>
-    <option name="lastPath" value="C:\Users\d.gandzii\Documents\test" />
+    <option name="openPaths">
+      <list>
+        <option value="C:\Users\d.gandzii\WebstormProjects\ocp" />
+      </list>
+    </option>
+    <option name="lastPath" value="C:\Users\d.gandzii\WebstormProjects\angular-f" />
     <option name="additionalInfo">
       <map>
         <entry key="C:\Users\d.gandzii\Documents\test">
@@ -14,12 +25,79 @@
               <option name="build" value="WS-171.4694.29" />
               <option name="productionCode" value="WS" />
               <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
-              <option name="projectOpenTimestamp" value="1498803497299" />
-              <option name="buildTimestamp" value="1496849138867" />
+              <option name="projectOpenTimestamp" value="1499069662194" />
+              <option name="buildTimestamp" value="1496849127482" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="C:\Users\d.gandzii\WebstormProjects\VanNavPoi">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
+              <option name="projectOpenTimestamp" value="1502717418141" />
+              <option name="buildTimestamp" value="1496849151468" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="C:\Users\d.gandzii\WebstormProjects\angular-f">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
+              <option name="projectOpenTimestamp" value="1502778069589" />
+              <option name="buildTimestamp" value="1496849147943" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="C:\Users\d.gandzii\WebstormProjects\lampix_ru">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
+              <option name="projectOpenTimestamp" value="1500971016318" />
+              <option name="buildTimestamp" value="1496849111280" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="C:\Users\d.gandzii\WebstormProjects\ocp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
+              <option name="projectOpenTimestamp" value="1502777991557" />
+              <option name="buildTimestamp" value="1496849147943" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="C:\Users\d.gandzii\WebstormProjects\table_kendo">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
+              <option name="projectOpenTimestamp" value="1502355395743" />
+              <option name="buildTimestamp" value="1496849142240" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="C:\Users\d.gandzii\WebstormProjects\vanilla-copycat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="C:\Program Files\JetBrains\WebStorm 2017.1.4\bin" />
+              <option name="projectOpenTimestamp" value="1502360960353" />
+              <option name="buildTimestamp" value="1496849142240" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
+    <option name="lastProjectLocation" value="C:\Users\d.gandzii\WebstormProjects" />
   </component>
 </application>

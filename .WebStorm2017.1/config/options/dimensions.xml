@@ -5,5 +5,18 @@
     <location key="SettingsEditor.1920.0.1280.1024" x="2041" y="141" />
     <location key="CommitChangelistDialog2.1920.0.1280.1024" x="2182" y="88" />
     <location key="Vcs.Push.Dialog.1920.0.1280.1024" x="2379" y="222" />
+    <location key="FileChooserDialogImpl.1920.0.1280.1024" x="2340" y="240" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1920.0.1280.1024" x="2338" y="368" />
+    <location key="MergeDialog.1920.0.1280.1024" x="1920" y="9" />
+    <location key="MultipleFileMergeDialog.1920.0.1280.1024" x="2258" y="216" />
+    <location key="CommitChangelistDialog2.0.0.1920.1080" x="218" y="237" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="807" y="539" />
+    <location key="SettingsEditor.0.0.1920.1080" x="596" y="213" />
+    <location key="RollbackChangesDialog.0.0.1920.1080" x="773" y="247" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1280.1024" x="2314" y="282" />
+    <location key="#Web_Browsers.1920.0.1280.1024" x="2360" y="318" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.1280.1024" x="2014" y="140" />
+    <location key="#TSLint.0.0.1920.1080" x="749" y="332" />
+    <size key="#TSLint.0.0.1920.1080" width="540" height="441" />
   </component>
 </application>

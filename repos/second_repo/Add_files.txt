@@ -1,2 +1,0 @@
-Notes: Add one or more files to staging (index):
-Git comands: 	git add <filename>git add *

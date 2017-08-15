@@ -1,0 +1,10 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "amd",
+    "lib": ["es2015", "dom"],
+    "types": ["jquery"],
+    "sourceMap": true
+  },
+  "files": ["script.ts", "page1.ts"]
+}

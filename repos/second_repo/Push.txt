@@ -1,3 +1,0 @@
-Git task : Push;
-Notes: 	Send changes to the master branch of your remote repository:;
-Git commands: 	git push origin master;

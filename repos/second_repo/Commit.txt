@@ -1,3 +1,0 @@
-Git Task : Commit;
-Notes: Commit changes to head (but not yet to the remote repository):
-Git commands : git commit -m "Commit message"

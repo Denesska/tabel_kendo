@@ -1,0 +1,12 @@
+{
+  "name": "Omanager",
+  "start_url": "index.html",
+  "icons": [
+     {
+      "src": "/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone"
+}

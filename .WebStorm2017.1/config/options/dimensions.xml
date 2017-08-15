@@ -17,6 +17,8 @@
     <location key="#Web_Browsers.1920.0.1280.1024" x="2360" y="318" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.1280.1024" x="2014" y="140" />
     <location key="#TSLint.0.0.1920.1080" x="749" y="332" />
+    <location key="find.popup.0.0.1920.1080" x="782" y="132" />
     <size key="#TSLint.0.0.1920.1080" width="540" height="441" />
+    <size key="find.popup.0.0.1920.1080" width="784" height="630" />
   </component>
 </application>

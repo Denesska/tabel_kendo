@@ -8,10 +8,10 @@ import { MomentModule } from 'angular2-moment';
 
 import 'hammerjs';
 
-import { SharedService } from './app.service'
+import { SharedService } from './app.service';
 import { DocumentViewService } from './document/document.service';
 import { TaskEditorService } from './taskeditor/taskeditor.service';
-import { AuthenticatedHttpService } from './login/auth-http.service'
+import { AuthenticatedHttpService } from './login/auth-http.service';
 
 import { Login } from './login/login';
 import { Home } from './home/home.component';
@@ -37,7 +37,7 @@ import { routes } from './app.routes';
     RouterModule.forRoot(routes, {
       useHash: true
     }),
-    MaterialModule.forRoot()
+    MaterialModule
   ],
   providers: [SharedService, DocumentViewService, TaskEditorService, AuthGuard, { provide: Http, useClass: AuthenticatedHttpService }],
   bootstrap: [AppComponent]
